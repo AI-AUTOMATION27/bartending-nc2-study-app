@@ -42,13 +42,14 @@
       <p>Your score: {{ score }} / {{ total }}</p>
       <p class="message">{{ message }}</p>
       <p><a href="/">Start a new quiz</a></p>
+      <p class="small">created by Judd Tito</p>
     {% else %}
       <p><strong>Category:</strong> {{ category }}</p>
       <p><strong>Cocktail:</strong> {{ cocktail }}</p>
 
       <form method="post">
         <label for="answer">Type ingredients separated by commas:</label>
-        <input type="text" id="answer" name="answer" placeholder="Example: 60 ml gin, 20 ml dry vermouth, Garnish with Cherry" required>
+        <input type="text" id="answer" name="answer" placeholder="Example: 60 ml gin, 20 ml dry vermouth" required>
         <button type="submit">Submit</button>
       </form>
 
