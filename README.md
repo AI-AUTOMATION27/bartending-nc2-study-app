@@ -1,10 +1,17 @@
-# bartending-nc2-study-app
-A web application that helps bartending students
-memorize the 32 standard cocktails required
-for TESDA NC II.
+# Bartending NC II Cocktail Quiz
+
+A Flask web application that helps bartending students
+memorize 32 standard cocktails, ingredients, categories,
+methods, and garnishes.
 
 ## Features
-- Cocktail quiz
+- Random cocktail quiz
+- Score tracking
+- Category-based learning
+- Ingredient memorization
 
-## Technologies used
+## Built With
 - Python
+- Flask
+- HTML
+- CSS
